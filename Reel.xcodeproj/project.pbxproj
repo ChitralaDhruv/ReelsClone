@@ -13,6 +13,17 @@
 		64B4EE80296BEFAF0071BE1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64B4EE7E296BEFAF0071BE1C /* Main.storyboard */; };
 		64B4EE82296BEFB10071BE1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64B4EE81296BEFB10071BE1C /* Assets.xcassets */; };
 		64B4EE85296BEFB10071BE1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64B4EE83296BEFB10071BE1C /* LaunchScreen.storyboard */; };
+		64B4EE94296BF2270071BE1C /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B4EE93296BF2270071BE1C /* TabBarVC.swift */; };
+		64B4EE96296BF23A0071BE1C /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B4EE95296BF23A0071BE1C /* HomeVC.swift */; };
+		64B4EE98296BF24C0071BE1C /* FlowsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B4EE97296BF24C0071BE1C /* FlowsVC.swift */; };
+		64B4EE9A296BF2640071BE1C /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B4EE99296BF2640071BE1C /* DashboardVC.swift */; };
+		64B4EE9C296BF2760071BE1C /* CalanderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B4EE9B296BF2760071BE1C /* CalanderVC.swift */; };
+		64B4EE9E296BF28E0071BE1C /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B4EE9D296BF28E0071BE1C /* SettingsVC.swift */; };
+		64B4EEA0296BFE230071BE1C /* flowsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B4EE9F296BFE230071BE1C /* flowsCell.swift */; };
+		64B4EEA2296C3BC40071BE1C /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 64B4EEA1296C3BC40071BE1C /* video.mp4 */; };
+		64B4EEA4296D12310071BE1C /* optionsBottomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B4EEA3296D12310071BE1C /* optionsBottomVC.swift */; };
+		64B4EEA7296D1C650071BE1C /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B4EEA6296D1C640071BE1C /* extensions.swift */; };
+		64B4EEA9296D2D310071BE1C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B4EEA8296D2D310071BE1C /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,17 @@
 		64B4EE81296BEFB10071BE1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64B4EE84296BEFB10071BE1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64B4EE86296BEFB10071BE1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64B4EE93296BF2270071BE1C /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		64B4EE95296BF23A0071BE1C /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		64B4EE97296BF24C0071BE1C /* FlowsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowsVC.swift; sourceTree = "<group>"; };
+		64B4EE99296BF2640071BE1C /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
+		64B4EE9B296BF2760071BE1C /* CalanderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanderVC.swift; sourceTree = "<group>"; };
+		64B4EE9D296BF28E0071BE1C /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		64B4EE9F296BFE230071BE1C /* flowsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flowsCell.swift; sourceTree = "<group>"; };
+		64B4EEA1296C3BC40071BE1C /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		64B4EEA3296D12310071BE1C /* optionsBottomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = optionsBottomVC.swift; sourceTree = "<group>"; };
+		64B4EEA6296D1C640071BE1C /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		64B4EEA8296D2D310071BE1C /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,11 @@
 		64B4EE77296BEFAF0071BE1C /* Reel */ = {
 			isa = PBXGroup;
 			children = (
+				64B4EEA5296D1C460071BE1C /* Extensions */,
+				64B4EEA1296C3BC40071BE1C /* video.mp4 */,
+				64B4EE8E296BEFE00071BE1C /* Model */,
+				64B4EE8D296BEFC70071BE1C /* View */,
+				64B4EE8C296BEFBD0071BE1C /* Controller */,
 				64B4EE78296BEFAF0071BE1C /* AppDelegate.swift */,
 				64B4EE7A296BEFAF0071BE1C /* SceneDelegate.swift */,
 				64B4EE7C296BEFAF0071BE1C /* ViewController.swift */,
@@ -65,6 +92,52 @@
 				64B4EE86296BEFB10071BE1C /* Info.plist */,
 			);
 			path = Reel;
+			sourceTree = "<group>";
+		};
+		64B4EE8C296BEFBD0071BE1C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				64B4EE92296BF2040071BE1C /* TabBar */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		64B4EE8D296BEFC70071BE1C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		64B4EE8E296BEFE00071BE1C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64B4EE9F296BFE230071BE1C /* flowsCell.swift */,
+				64B4EEA8296D2D310071BE1C /* TableViewCell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		64B4EE92296BF2040071BE1C /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				64B4EE93296BF2270071BE1C /* TabBarVC.swift */,
+				64B4EE95296BF23A0071BE1C /* HomeVC.swift */,
+				64B4EE97296BF24C0071BE1C /* FlowsVC.swift */,
+				64B4EE99296BF2640071BE1C /* DashboardVC.swift */,
+				64B4EE9B296BF2760071BE1C /* CalanderVC.swift */,
+				64B4EE9D296BF28E0071BE1C /* SettingsVC.swift */,
+				64B4EEA3296D12310071BE1C /* optionsBottomVC.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		64B4EEA5296D1C460071BE1C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				64B4EEA6296D1C640071BE1C /* extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +201,7 @@
 				64B4EE85296BEFB10071BE1C /* LaunchScreen.storyboard in Resources */,
 				64B4EE82296BEFB10071BE1C /* Assets.xcassets in Resources */,
 				64B4EE80296BEFAF0071BE1C /* Main.storyboard in Resources */,
+				64B4EEA2296C3BC40071BE1C /* video.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +212,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64B4EEA9296D2D310071BE1C /* TableViewCell.swift in Sources */,
+				64B4EEA0296BFE230071BE1C /* flowsCell.swift in Sources */,
 				64B4EE7D296BEFAF0071BE1C /* ViewController.swift in Sources */,
+				64B4EE96296BF23A0071BE1C /* HomeVC.swift in Sources */,
+				64B4EE9A296BF2640071BE1C /* DashboardVC.swift in Sources */,
 				64B4EE79296BEFAF0071BE1C /* AppDelegate.swift in Sources */,
+				64B4EE94296BF2270071BE1C /* TabBarVC.swift in Sources */,
+				64B4EE98296BF24C0071BE1C /* FlowsVC.swift in Sources */,
+				64B4EE9C296BF2760071BE1C /* CalanderVC.swift in Sources */,
 				64B4EE7B296BEFAF0071BE1C /* SceneDelegate.swift in Sources */,
+				64B4EEA4296D12310071BE1C /* optionsBottomVC.swift in Sources */,
+				64B4EE9E296BF28E0071BE1C /* SettingsVC.swift in Sources */,
+				64B4EEA7296D1C650071BE1C /* extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
