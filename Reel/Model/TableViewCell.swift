@@ -41,5 +41,7 @@ class TableViewCell: UITableViewCell {
         player?.volume = 0
         player?.play()
     }
+    
+    //public func onSelectingRow(with n)
 
 }

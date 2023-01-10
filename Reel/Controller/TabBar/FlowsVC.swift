@@ -15,7 +15,7 @@ struct VideoModel {
 }
 
 
-class FlowsVC: UIViewController, UICollectionViewDataSource ,UICollectionViewDelegateFlowLayout, UICollectionViewDelegate {
+class FlowsVC: UIViewController, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, UICollectionViewDelegate {
     
     private var data = [VideoModel]()
 
@@ -23,7 +23,10 @@ class FlowsVC: UIViewController, UICollectionViewDataSource ,UICollectionViewDel
         super.viewDidLoad()
         
         for _ in 0..<10 {
-            let model = VideoModel(caption: "Through goes Hamilton", username: "Jenny1892", videoFileName: "video", videoFileFormat: "mp4")
+            let model = VideoModel(caption: "Through goes Hamilton",
+                                   username: "Jenny1892",
+                                   videoFileName: "video",
+                                   videoFileFormat: "mp4")
             data.append(model)
         }
         view.backgroundColor = #colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)

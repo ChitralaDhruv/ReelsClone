@@ -78,6 +78,12 @@ class DashboardVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return tableView.frame.size.width * (9/16)
     }
+
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let VC = ViewController()
+        VC.updateNumber(indexPath.row)
+        present(VC, animated: true)
+    }
     
     //MARK: - AutoLayout
     

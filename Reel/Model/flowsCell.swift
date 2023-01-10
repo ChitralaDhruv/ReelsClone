@@ -115,6 +115,7 @@ class flowsCell: UICollectionViewCell {
         return stack
     }()
     
+    //MARK: - AutoLayout
     
     private func setUpAutoLayout() {
         caption.translatesAutoresizingMaskIntoConstraints = false
