@@ -46,12 +46,15 @@ class DashboardVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
     private func navBarSetup() {
         navigationItem.title = "Features"
+        let textAttributes = [NSAttributedString.Key.foregroundColor:UIColor.white]
+        navigationController?.navigationBar.titleTextAttributes = textAttributes
+        
         navigationController?.navigationBar.backgroundColor = #colorLiteral(red: 0.07505694777, green: 0.1268905699, blue: 0.1643333137, alpha: 1)
         
         self.navigationController?.navigationBar.isTranslucent = true
-        self.navigationController?.navigationBar.tintColor = #colorLiteral(red: 0.07505694777, green: 0.1268905699, blue: 0.1643333137, alpha: 1)
+        self.navigationController?.navigationBar.tintColor = .white
         
-        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(named: "Customize"), style: .plain, target: self, action: #selector(doNothing))
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(named: "message"), style: .plain, target: self, action: #selector(doNothing))
         
     }
     
@@ -75,6 +78,8 @@ class DashboardVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return tableView.frame.size.width * (9/16)
     }
+    
+    //MARK: - AutoLayout
     
     private func setUpAutoLayout() {
         tableView.translatesAutoresizingMaskIntoConstraints = false

@@ -34,20 +34,16 @@ class FlowsVC: UIViewController, UICollectionViewDataSource ,UICollectionViewDel
         navigationController?.navigationBar.isHidden = true
         
         view.addSubview(collectionView)
+        
+        setUpAutoLayout()
        
-        collectionView.translatesAutoresizingMaskIntoConstraints = false
-        collectionView.topAnchor.constraint(equalTo: view.topAnchor, constant: 0).isActive = true
-        collectionView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -85).isActive = true
-        collectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 0).isActive = true
-        collectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 0).isActive = true
+        
     }
     
     private let collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .vertical
         layout.sectionInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
-        //layout.itemSize = CGSize(width: width, height: height)
-        
         
         let collection = UICollectionView(frame: .zero, collectionViewLayout: layout)
         collection.isPagingEnabled = true
@@ -79,6 +75,14 @@ class FlowsVC: UIViewController, UICollectionViewDataSource ,UICollectionViewDel
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
             return CGSize(width: collectionView.frame.width, height: collectionView.frame.height)
+    }
+    
+    private func setUpAutoLayout() {
+        collectionView.translatesAutoresizingMaskIntoConstraints = false
+        collectionView.topAnchor.constraint(equalTo: view.topAnchor, constant: 0).isActive = true
+        collectionView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -85).isActive = true
+        collectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 0).isActive = true
+        collectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 0).isActive = true
     }
     
 }
